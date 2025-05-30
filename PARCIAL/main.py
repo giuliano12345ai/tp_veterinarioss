@@ -40,10 +40,7 @@ def registrar_turno():
         
     while True:
         cantidad_str = input("Ingrese cantidad de turnos a reservar (1-10): ")
-        # >>> INICIO DE LA CORRECCIÓN <<<
-        # Aquí es donde se cambia para usar validar_cadena, que es la que valida el input de texto
         cantidad_valida = validar_cadena(cantidad_str) 
-        # >>> FIN DE LA CORRECCIÓN <<<
         
         if cantidad_valida is not None:
             break
