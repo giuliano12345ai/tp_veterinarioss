@@ -1,0 +1,91 @@
+Sistema de Aprobación:
+Aprobación No Directa
+Parte 1: Desarrollo de un ejercicio práctico. Tendrán acceso el día del parcial.
+Parte 2: Multiple choice teórico. Tendrán acceso el día del parcial.
+Aprobación Directa (APD):
+Parte 3: Desarrollo completo del ejercicio práctico.
+Parte 4: En caso de aprobar la Parte 1 y 2, deberán resolver en vivo dos requerimientos adicionales relacionados al mismo proyecto.
+Parte 5: Si logran resolver al menos uno de los dos requerimientos, se les tomará una breve defensa oral.
+
+Parte 3 – Desarrollo Práctico
+Enunciado: Gestión de Turnos en una Clínica Veterinaria
+Una clínica veterinaria cuenta con 10 profesionales veterinarios, que trabajan en consultorios individuales. Sus nombres son:
+neiner, maximiliano
+villegas, octavio
+cardozo, marina
+baus, christian
+luccheta, giovanni
+fernández, david
+ochoa, gonzalo
+gatto, catriel
+fernández, mariano
+bustos gil, felipe
+Cada profesional brinda 3 tipos de servicios veterinarios:
+consulta general – $15000
+vacunación – $20000
+control post-quirúrgico – $30000
+
+
+⚠️ Importante: Aunque los datos estarán hardcodeados, tanto los nombres de servicios como los nombres de
+veterinarios deben estar normalizados: la primera letra de cada palabra en mayúscula y el resto en minúsculas.
+
+Requerimientos del Programa
+El programa deberá desplegar un menú principal con las siguientes opciones:
+
+1. Registrar un turno
+El usuario deberá ingresar:
+Nombre del veterinario (debe coincidir con uno de los 10 listados).
+Tipo de servicio solicitado (consulta general, vacunación o control post-quirúrgico).
+Cantidad de turnos reservados (entre 1 y 10).
+
+✔️ Todos los datos deben ingresarse como cadenas de texto y ser validados correctamente. El programa no debe romperse en esta instancia.
+ ✔️ Mostrar el total a pagar en pesos al finalizar la reserva del turno.
+
+2. Visualizar todos los datos
+Mostrar un listado que incluya:
+Veterinario
+Servicio
+Precio
+Cantidad de turnos reservados
+
+
+Los veterinarios deben estar ordenados alfabéticamente (A-Z).
+
+3. Consultas
+Mostrar un submenú con las siguientes opciones:
+📋 Listado con la cantidad total de turnos reservados por cada veterinario.
+📊 Promedio de turnos por tipo de servicio entre todos los veterinarios.
+💲 Recaudación total acumulada por todos los veterinarios.
+📈Veterinarios ordenados alfabéticamente de la A-Z junto al total que recaudó en concepto de servicios.
+📈 Porcentaje de cada tipo de servicio respecto al total general de turnos.
+📉 Veterinario con menor cantidad total de turnos atendidos.
+📉 Porcentaje de turnos por veterinario respecto al total general.
+🏆 Servicio/s más solicitado/s por cada veterinario.
+
+
+
+Aspectos Técnicos y Formales
+Podés usar colorama y emojis para mejorar la visualización.
+El ingreso y validación de datos debe estar contenido en un módulo/biblioteca aparte.
+El programa debe controlar que no se acceda a opciones sin datos cargados, informando al usuario si es necesario.
+El código debe estar correctamente modularizado, reutilizable y contar con comentarios de documentación siguiendo las reglas de estilo de la cátedra.
+Crear un repositorio privado en GitHub con el nombre:
+ Apellido.Nombre.PrimerParcial
+ Debe estar compartido con los docentes y su enlace enviado por el formulario oficial.
+
+
+
+Parte 4 – Requerimientos en Vivo
+Si aprobaste la Parte 1 y 2 (Aprobación No Directa), deberás desarrollar en vivo dos nuevos requerimientos relacionados al mismo sistema.
+
+Parte 5 – Defensa Oral
+Si resolvés al menos uno de los requerimientos en vivo, deberás realizar una defensa oral del parcial para verificar la comprensión del código. Es requisito fundamental hacerlo para la aprobación del mismo.
+
+Observaciones Finales
+Podés pedir ayuda a compañeros solo en forma de consultas conceptuales.
+❌ No está permitido compartir código.
+En caso de usar IA, debés hacerlo solo como herramienta puntual de apoyo, no como fuente principal del trabajo.
+Se espera una solución original, desarrollada con los contenidos abordados en clase.
+No se pueden utilizar funciones “mágicas” de Python como: sum, min, max, all, in (salvo en el rango del for), any, filter, map, enumerate, reversed, sorted, next.
+Tampoco métodos para el manejo de listas como append, remove, etc. Toda solución debe estar resuelta desde una perspectiva algorítmica. En caso de dudas consultar.
+No se puede usar comprensión de listas, salvo en el caso de la creación de matrices y vectores
